@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+th {
+  background-color: #ccc;
+}
+
+.delete-button, .update-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: #f44336;
+}
+
+.update-button {
+  background-color: #008CBA;
+}
